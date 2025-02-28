@@ -6,7 +6,7 @@ Video Reference: [Debian 12 Bookworm Minimal Install w/BTRFS (JustAGuy Linux)](h
 
 ## Installation Steps
 
-- Use the current Debian NetInstall (netinst) download. (https://www.debian.org/distrib/)
+- Use the current Debian NetInstall (netinst) download. [https://www.debian.org/distrib/](https://www.debian.org/distrib/)
 - Create bootable USB.
 - Boot the system from the created USB to load the installer.
 
@@ -22,13 +22,13 @@ Video Reference: [Debian 12 Bookworm Minimal Install w/BTRFS (JustAGuy Linux)](h
 - Detect and mount installation media > press Enter, when popup appears select Continue.
 - Load installer components from installation media > press Enter, when popup appears leave all unchecked and select Continue.
 - Detect network hardware > press Enter, when popup happens click Enter, then on next popup select the network interface you wish to use and Yes to Auto-configure networking.
-  - Configure the network 
+  - Configure the network
     - enter a Hostname you wish then Continue.
     - Domain Name set to blank.
 - Set up users and passwords
   - Allow login as root > No
   - Create user that will have sudo rights.  You will enter name, username, and password.
-- Configure the clock 
+- Configure the clock
   - Set the clock using NTP > Yes
   - NTP server to use > time.nrc.ca  (Can also use default or one of your choosing)
   - Time Zone > UTC  (Suggest using UTC for servers or local time if will be used for a workstation)
